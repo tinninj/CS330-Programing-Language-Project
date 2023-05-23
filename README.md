@@ -30,8 +30,8 @@ Comments are often used to add more information about the code and it is ignored
   
  To write multi-line comments you would start the comment with /* and end with */. Here is an example of a multi-line comment:
   
-  */* this is
-  a multi-line comment */*
+  '*/* this is
+  a multi-line comment */*'
 
 **Resources**
 ------------
