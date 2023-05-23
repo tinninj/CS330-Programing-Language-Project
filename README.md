@@ -3,7 +3,7 @@ Over the course of a semester, I will self learn JavaScript.
 
 **The History of JavaScript**
 ====================================
-Javacript was created in 1995 by Brendan Eich. He is most famous as a co-founder of Mozilla which is the company that created the popular Firefox web browser.When he worked for  Netscape in 1995, they were looking to add interactivity into webpages for NetScape2 and thats when JavaScript was invented. Javascript added many new features to web pages like buttons, forms and menus. While JavaScript is primarily used for web development, it can also be used for desktop applications, mobile applications, and server-side programming. Many browser based games are also created with Javascript. Some examples of projects that have been built using JavaScript include:
+Javacript was created in 1995 by Brendan Eich. He is most famous as a co-founder of Mozilla which is the company that created the popular Firefox web browser.When he worked for  Netscape in 1995, they were looking to add interactivity into webpages for NetScape2, a web browser, and thats when JavaScript was invented. Javascript is a cross-platform, object oriented programming language. It added many new features to web pages like buttons, animations and fancy menus. While JavaScript is primarily used for web development, it can also be used for desktop applications, mobile applications, and server-side programming. Many browser based games are also created with Javascript. Some examples of projects that have been built using JavaScript include:
 
 
 + Google Chrome
