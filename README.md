@@ -18,5 +18,8 @@ My primary resource to learn JavaScript will be the Mozilla Developer Network (M
 
 **Getting Started in JavaScript**
 ====================================
-To install JavaScript, you can either download the Node.js which is a Javascript runtime, or use a web-based IDE like CodePen. Javascript code can be viewed in the Developer tools in a web browser. There is no one "recommended" programming environment for JavaScript. However, some popular environments include Node.js, Visual Studio Code, and Sublime Text. To run a program in JavaScript, you can either use a command-line interpreter like Node.js, or use a web-based IDE. Comments are often used to add more information about the code and it is ignored by the interpretor. To write comments in JavaScript, you type to forward slashes followed by whatever you want in the comment. Here is an example of a comment:
+Since JavaScript is the language of the web,you can actually open the developer tools in most web browsers to start programming in JavaScript. To run  JavaScript outside the developer tools, you can either download Node.js, which is a Javascript runtime, or use a web-based IDE like CodePen. With Node.js, you can run JavaScript programs from the terminal. There is no one "recommended" programming environment for JavaScript. However, some popular environments include Node.js and Visual Studio Code. I have chose to and run them with the comman line. Comments are often used to add more information about the code and it is ignored by the interpretor. To write comments in JavaScript, you type to forward slashes followed by whatever you want in the comment. Here is an example of a comment:
 // This is a comment
+
+**Resources**
+------------
