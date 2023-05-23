@@ -26,12 +26,13 @@ There is no one "recommended" programming environment for JavaScript since there
  ====================================
 Comments are often used to add more information about the code and it is ignored by the interpretor. To write single line comments in JavaScript, you type to forward slashes followed by whatever you want in the comment. Here is an example of a comment:
 
-  *// This is a comment*
+  // This is a comment
   
  To write multi-line comments you would start the comment with /* and end with */. Here is an example of a multi-line comment:
   
-  '''*/* this is
-  a multi-line comment */*'''
+  /* this is
+  
+  a multi-line comment */*
 
 **Resources**
 ------------
