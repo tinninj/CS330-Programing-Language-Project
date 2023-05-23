@@ -32,7 +32,7 @@ Comments are often used to add more information about the code and it is ignored
   
   /* this is
   
-  a multi-line comment */*
+  a multi-line comment */
 
 **Resources**
 ------------
