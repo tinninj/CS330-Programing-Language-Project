@@ -18,7 +18,9 @@ My primary resource to learn JavaScript will be the Mozilla Developer Network (M
 
 **Getting Started in JavaScript**
 ====================================
-Since JavaScript is the language of the web,you can actually open the developer tools in most web browsers to start programming in JavaScript. To run  JavaScript outside the developer tools, you can either download Node.js, which is a Javascript runtime, or use a web-based IDE like CodePen. With Node.js, you can run JavaScript programs from the terminal. There is no one "recommended" programming environment for JavaScript. However, some popular environments include Node.js and Visual Studio Code. I have chose to and run them with the comman line. Comments are often used to add more information about the code and it is ignored by the interpretor. To write comments in JavaScript, you type to forward slashes followed by whatever you want in the comment. Here is an example of a comment:
+Since JavaScript is the language of the web,you can actually open the developer tools in most web browsers to start programming in JavaScript. Additionally, you can create a HTML file that has a <script> tag containing Javasacript. If you open the HTML in a web browser, the JavaScript code can be interepreted and executed. You can also use Node.js, which is a Javascript runtime that allows you to run Javascript outside a browser. After dowloading Node.js, you can type commands into a terminal to run JavaScript code. There are also special web-based IDEs like CodePen that allow you to execute JavaScript code. 
+  
+There is no one "recommended" programming environment for JavaScript since there are so many ways to run it. For this project my focus will be on using the Visual Studio Code IDE to write the code and use Node.js and a web browser to run the code. Comments are often used to add more information about the code and it is ignored by the interpretor. To write comments in JavaScript, you type to forward slashes followed by whatever you want in the comment. Here is an example of a comment:
 // This is a comment
 
 **Resources**
