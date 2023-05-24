@@ -41,3 +41,6 @@ Comments are often used to add more information about the code and it is ignored
   + The OpenJS Foundation. About Nodejs. https://nodejs.org/en](https://nodejs.org/en/about)
   + Mozilla. JavaScript Reference. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
   + Mozilla. Javascript Guide. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
+  + Haverbeke, M. (2019). Eloquent javascript: A modern introduction to programming. No Starch Press. 
+  + FLANAGAN, D. (2020). JAVASCRIPT the definitive guide. O’REILLY MEDIA, INC, USA. 
+  
