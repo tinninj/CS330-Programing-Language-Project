@@ -50,6 +50,14 @@ Data types can usually fall into one of two categories: primitive and non-primit
 Primitive Data Types
 ====================================
 JavaScript has the following primitive data types:
+  
+  + Google Chrome
++ Netflix
++ Twitter
++ Amazon
++ Uber
+  
+  
   +Numbers: Numbers in JavaScript are straight forward. They can be whole numbers or contain decimal points. Unlike other programing languages, JavaScript does not differentiate between types of numbers like integers or floats.There are limitiation to numbers in JavaScript. They  can represent numbers up to 2^53 and as low as -2^53. An number bigger or lower than those would not be represented by a number in JavaScript
 
   +BigInt: Since numbers have their limitations, BigInts can be used to represent numbers lower than -2^53 and higher than 2^53. 
