@@ -51,25 +51,14 @@ Primitive Data Types
 ====================================
 JavaScript has the following primitive data types:
   
-  + Google Chrome
-+ Netflix
-+ Twitter
-+ Amazon
-+ Uber
-  
-  
-  +Numbers: Numbers in JavaScript are straight forward. They can be whole numbers or contain decimal points. Unlike other programing languages, JavaScript does not differentiate between types of numbers like integers or floats.There are limitiation to numbers in JavaScript. They  can represent numbers up to 2^53 and as low as -2^53. An number bigger or lower than those would not be represented by a number in JavaScript
-
-  +BigInt: Since numbers have their limitations, BigInts can be used to represent numbers lower than -2^53 and higher than 2^53. 
-  
-  +Strings: Strings are used to represent text. Strings usually have a sequence of characters but they can also contain a single, empty space.
-  
-  +Booleans: Boolean data types accepts two values: true or false.
-  
-  +Undefined: Undefined means that a value has yet to be assigned to a variable.
-+Null: Null is generally use to point toward a nonexistent object. It is important to note that Null does not mean zero.
-  
- +Symbol: Symbols are always unique and immutable. They are used to identify object properties to avoid conflicts with other properties of the object. 
++ Numbers: Numerical values. They can be whole numbers or contain decimal points. JavaScript does not differentiate between types of numbers like integers or floats
++ BigInt: Since numbers have their limitations, BigInts can be used to represent numbers lower than -2^53 and higher than 2^53. 
++ Strings: Strings are used to represent text. Strings usually have a sequence of characters but they can also contain a single, empty space.
++ Booleans: Boolean data types accepts two values: true or false.
++ Undefined: Undefined means that a value has yet to be assigned to a variable.
++ Null: Null is generally use to point toward a nonexistent object. It is important to note that Null does not mean zero.
++ Symbol: Symbols are always unique and immutable. They are used to identify object properties to avoid conflicts with other properties of the object. 
+   
   
 Non-primitive Data types
 ===================
