@@ -33,6 +33,11 @@ Comments are often used to add more information about the code and it is ignored
   /* this is
   
   a multi-line comment */
+  
+  
+**What Kind of Language is JavaScript? **
+ ===============
+  JavaScript is an Object-Oriented programming language. Since JavaScript allows type conversion it is considered weakly typed. It is also considered dynamically typed. JavaScript’s variables are not directly associated with certain data types and as such, they can store all the different data types.
 
 **Resources**
 ------------
