@@ -51,7 +51,7 @@ Primitive Data Types
 ====================================
 JavaScript has the following primitive data types:
   
-+ Numbers: Numerical values. They can be whole numbers or contain decimal points. JavaScript does not differentiate between types of numbers like integers or floats
++ Numbers: Numerical values. All numbers in JavaScript are stored as floating points. Numbers can be written both with and without the decimals.
 + BigInt: Since numbers have their limitations, BigInts can be used to represent numbers lower than -2^53 and higher than 2^53. 
 + Strings: Strings are used to represent text. Strings usually have a sequence of characters but they can also contain a single, empty space.
 + Booleans: Boolean data types accepts two values: true or false.
