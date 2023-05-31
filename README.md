@@ -84,42 +84,40 @@ JavaScript has the following primitive data types:
 
   console.log(firstName + lastName); //you can concatenate strings in JavaScript with a plus sign(+)
   ```
-   ```
-  
   
   
 + Booleans: Boolean data types accepts two values: true or false.
   
 ```
-let single = true;
-let married = false;
+  let single = true;
+  let married = false;
 
-console.log(single); // this will  print out true
-console.log(married); //this will  print out false
+  console.log(single); // this will  print out true
+  console.log(married); //this will  print out false
 ```
   
 + Undefined: Undefined means that a value has yet to be assigned to a variable.
   
  ```
-let childName;
+  let childName;
 
-console.log(childName); //undefined will be returned
+  console.log(childName); //undefined will be returned
 ```
   
 + Null: Null is generally use to point toward a nonexistent object. It is important to note that Null does not mean zero.
   
  ```
-let marriedName = null;
+  let marriedName = null;
   
-console.log(marriedName); //Null will be returned
+  console.log(marriedName); //Null will be returned
 ``` 
   
 + Symbol: Symbols are always unique and immutable. They are used to identify object properties to avoid conflicts with other properties of the object. 
   
 ```
-let aSymbol = ("mysymbol");
+  let aSymbol = ("mysymbol");
 
-console.log(aSymbol); // aSymbol will be returned
+  console.log(aSymbol); // aSymbol will be returned
  
 ``` 
   
@@ -135,11 +133,11 @@ Commons Non-primitive Data Types
   
   
   ```
-let exArray = [3, 6, 9];
-let anArray = ["cat", 5, 10, "dog"] //This array contains both numbers and strings but no error occurs.
+  let exArray = [3, 6, 9];
+  let anArray = ["cat", 5, 10, "dog"] //This array contains both numbers and strings but no error occurs.
 
-console.log(exArray);
-console.log(anArray)
+  console.log(exArray);
+  console.log(anArray)
   ``` 
   
   
@@ -149,20 +147,19 @@ console.log(anArray)
   
 
   ```
-let aMap = new Map();
+  let aMap = new Map();
 
-aMap.set('u', '3'); //add items to maps
-aMap.set('x', '4');
-aMap.set('123','p');
-
-
-console.log(aMap.get('123')); //retrieve value based on key
+  aMap.set('u', '3'); //add items to maps
+  aMap.set('x', '4');
+  aMap.set('123','p');
 
 
-console.log(aMap.size) //get map size
+  console.log(aMap.get('123')); //retrieve value based on key
 
-aMap.delete('x') //delete key and value pair and get size to see that the map is smaller
-console.log(aMap.size)
+  console.log(aMap.size) //get map size
+
+  aMap.delete('x') //delete key and value pair and get size to see that the map is smaller
+  console.log(aMap.size)
   ```
 
   
