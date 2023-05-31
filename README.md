@@ -142,12 +142,10 @@ Commons Non-primitive Data Types
   console.log(exArray.length); // Get array length.
   
   exArray.push(12); // Add element at the end of array
-  console.log(exArray); //returns 
   
   exArray.pop(); // Remove element from the end of array
-  console.log(exArray); // returns 
   
-  console.log(exArray.join(", ")); // Convert array to a string with specified separator. returns 
+  console.log(exArray.join(", ")); // Convert array to a string with specified separator. 
   
   ``` 
   
@@ -169,8 +167,8 @@ Commons Non-primitive Data Types
 
   console.log(aMap.size) //get map size
 
-  aMap.delete('x') //delete key and value pair and get size to see that the map is smaller
-  console.log(aMap.size)
+  aMap.delete('x') //delete key and value pair
+  
   ```
 
   
