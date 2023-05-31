@@ -36,22 +36,22 @@ Comments are often used to add more information about the code and it is ignored
   
  **What kind of Language is JavaScript?**
  ====================================
-JavaScript is an Object-Oriented programming language. Since JavaScript allows type conversion it is considered weakly typed. It is also considered dynamically typed. JavaScript’s variables are not directly associated with certain data types and as such, they can store all the different data types.
+JavaScript is an object-oriented programming language. Due to its ability to perform type conversion, it is considered weakly typed. Additionally, JavaScript is regarded as dynamically typed. In JavaScript, variables are not directly associated with specific data types, allowing them to store various data types.
   
 **Naming Conventions in JavaScript**
 ====================================
-There are a few rules and naming conventions for JavaScript variables.First, there are reserved words that may not be used as variable names. One example of a reserved word is break. I would not be able to call a variable break. Secondly,  The names os variables can not start with a number. A variable called 31street would not be a valid name in JavaScript but street31 would be. Finally, The only special characters allowed in variable names are dollar sign ($) and underscores (_).  While underscores can be used to separate works in the variable such as big_green_frog, most JavaScript developers would capitalize every word in the variable name except for the first and would not include an underscore. This style is called camelCase and it is also the standard for other programing languages. The variable big_green_frog would be written instead as bigGreenFrog.
+There are a few rules and naming conventions for JavaScript variables. First, there are reserved words that may not be used as variable names. One example of a reserved word is "break." It would not be allowed to use "break" as a variable name. Secondly, variable names cannot start with a number. For example, "31street" would not be a valid name in JavaScript, but "street31" would be. Finally, the only special characters allowed in variable names are the dollar sign ($) and underscores (_). While underscores can be used to separate words in the variable name, such as "big_green_frog," most JavaScript developers follow the convention of capitalizing every word in the variable name except for the first word and not including an underscore. This style is called camelCase, and it is also the standard in other programming languages. The variable "big_green_frog" would be written instead as "bigGreenFrog.
 
 **Data Types**
 ====================================
-Data types can usually fall into one of two categories: primitive and non-primitive. Primitive data types are the building blocks of programming langauges and are usually immutable. Non-primitive data types are more complex than primitive data types. They often hold many values and are mutable. 
+Data types can usually fall into one of two categories: primitive and non-primitive. Primitive data types serve as the building blocks of programming languages and are typically immutable. On the other hand, non-primitive data types are more complex compared to primitive data types. They often encompass multiple values and are mutable.
   
 
 Primitive Data Types
 ====================================
 JavaScript has the following primitive data types:
   
-+ Numbers: Numerical values. All numbers in JavaScript are stored as floating points. Numbers can be written both with and without the decimals.
++ Numbers: Represents numerical values. All numbers in JavaScript are stored as floating points. Numbers can be written both with and without decimals.
   
  ```
   let length = 5;
@@ -62,7 +62,7 @@ JavaScript has the following primitive data types:
   console.log(area); // this results in area being equal to 32.5. JavaScript would not use narrowing conversion for this. 
   ```
   
-+ BigInt: Since numbers have their limitations, BigInts can be used to represent numbers lower than -2^53 and higher than 2^53. 
++ BigInt: Since numbers have their limitations, BigInts can be used to represent numbers lower than -2^53 - 1 and higher than 2^53 + 1.
   
     ```
   let regularNumber = 9007199254740991; // A regular number
@@ -72,7 +72,7 @@ JavaScript has the following primitive data types:
   console.log(bigIntNumber); // Prints: 9007199254740991895n
    ```
   
-+ Strings: Strings are used to represent text. Strings usually have a sequence of characters but they can also contain a single, empty space.
++ Strings: Strings are used to represent text. Usually, strings consist of a sequence of characters, but they can also be empty or contain a single space.
   
   
    ```
@@ -86,7 +86,7 @@ JavaScript has the following primitive data types:
   ```
   
   
-+ Booleans: Boolean data types accepts two values: true or false.
++ Booleans: The Boolean data type accepts two values: true or false.
   
 ```
   let single = true;
@@ -96,7 +96,7 @@ JavaScript has the following primitive data types:
   console.log(married); // Prints: false
 ```
   
-+ Undefined: Undefined means that a value has yet to be assigned to a variable.
++ Undefined: Undefined means that a value has not yet been assigned to a variable.
   
  ```
   let childName;
@@ -104,7 +104,7 @@ JavaScript has the following primitive data types:
   console.log(childName); //Prints: undefined 
 ```
   
-+ Null: Null is generally use to point toward a nonexistent object. It is important to note that Null does not mean zero.
++ Null: Null is generally used to point towards a nonexistent object. It is important to note that Null does not mean zero.
   
  ```
   let marriedName = null;
@@ -112,7 +112,7 @@ JavaScript has the following primitive data types:
   console.log(marriedName); // Prints: Null
 ``` 
   
-+ Symbol: Symbols are always unique and immutable. They are used to identify object properties to avoid conflicts with other properties of the object. 
++ Symbol: Symbols are always unique and immutable. They are used to identify object properties, thus avoiding conflicts with other properties of the object.
   
 ```
   let aSymbol = ("mysymbol");
@@ -123,12 +123,12 @@ JavaScript has the following primitive data types:
   
 Non-primitive Data types
 ===================
-In JavaScript some non-primitive data types are considered objects. Objects can have different properties and methods. They have key-value pairs. 
+In JavaScript, some non-primitive data types are considered objects. Objects can have various properties and methods, and they are composed of key-value pairs.
   
 Commons Non-primitive Data Types
 ==================
   
-+ Arrays: Arrays are a collection of different values stored under a single name. They are resizable. The key value pair consists of the name of the array and each value stored in the array. 
++ Arrays: Arrays are collections of different values stored under a single name. They are resizable. Each array consists of a key-value pair, with the name of the array being the key and the values being stored in the array.
   
   
   
@@ -151,7 +151,7 @@ Commons Non-primitive Data Types
   
   
   
-+ Maps: Maps are similar to arrays except their key value pairs are unique. A map can be an instance of an object.
++ Maps: Maps are similar to arrays, except that their key-value pairs are unique. A map can be an instance of an object.
   
   
 
