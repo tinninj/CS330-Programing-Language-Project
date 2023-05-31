@@ -65,6 +65,7 @@ console.log(area); // this results in area being equal to 32.5. JavaScript would
 + BigInt: Since numbers have their limitations, BigInts can be used to represent numbers lower than -2^53 and higher than 2^53. 
 + Strings: Strings are used to represent text. Strings usually have a sequence of characters but they can also contain a single, empty space.
   
+  
    ```
 let firstName = "Jane";
 let lastName = "Doe";
@@ -75,6 +76,8 @@ console.log(lastName);
 
 console.log(firstName + lastName); //you can concatenate strings in JavaScript with a plus sign(+)
   ```
+  
+  
   
 + Booleans: Boolean data types accepts two values: true or false.
   
