@@ -92,8 +92,8 @@ JavaScript has the following primitive data types:
   let single = true;
   let married = false;
 
-  console.log(single); // this will  print out true
-  console.log(married); //this will  print out false
+  console.log(single); // Prints: true
+  console.log(married); // Prints: false
 ```
   
 + Undefined: Undefined means that a value has yet to be assigned to a variable.
@@ -101,7 +101,7 @@ JavaScript has the following primitive data types:
  ```
   let childName;
 
-  console.log(childName); //undefined will be returned
+  console.log(childName); //Prints: undefined 
 ```
   
 + Null: Null is generally use to point toward a nonexistent object. It is important to note that Null does not mean zero.
@@ -109,7 +109,7 @@ JavaScript has the following primitive data types:
  ```
   let marriedName = null;
   
-  console.log(marriedName); //Null will be returned
+  console.log(marriedName); // Prints: Null
 ``` 
   
 + Symbol: Symbols are always unique and immutable. They are used to identify object properties to avoid conflicts with other properties of the object. 
@@ -117,7 +117,7 @@ JavaScript has the following primitive data types:
 ```
   let aSymbol = ("mysymbol");
 
-  console.log(aSymbol); // aSymbol will be returned
+  console.log(aSymbol); // Prints: aSymbol 
  
 ``` 
   
