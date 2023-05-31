@@ -54,12 +54,12 @@ JavaScript has the following primitive data types:
 + Numbers: Numerical values. All numbers in JavaScript are stored as floating points. Numbers can be written both with and without the decimals.
   
  ```
-let length = 5;
-let width = 6.5;
+  let length = 5;
+  let width = 6.5;
 
-let area = length * width;
+  let area = length * width;
 
-console.log(area); // this results in area being equal to 32.5. JavaScript would not use narrowing conversion for this. 
+  console.log(area); // this results in area being equal to 32.5. JavaScript would not use narrowing conversion for this. 
   ```
   
 + BigInt: Since numbers have their limitations, BigInts can be used to represent numbers lower than -2^53 and higher than 2^53. 
