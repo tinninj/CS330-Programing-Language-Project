@@ -66,9 +66,9 @@ console.log(area); // this results in area being equal to 32.5. JavaScript would
   
     ```
   let regularNumber = 9007199254740991; // A regular number
-let bigIntNumber = BigInt("9007199254740991895"); // A BigInt number
-console.log(regularNumber); // Prints: 9007199254740991
-console.log(bigIntNumber); // Prints: 9007199254740991895n
+  let bigIntNumber = BigInt("9007199254740991895"); // A BigInt number
+  console.log(regularNumber); // Prints: 9007199254740991
+  console.log(bigIntNumber); // Prints: 9007199254740991895n
    ```
   
 + Strings: Strings are used to represent text. Strings usually have a sequence of characters but they can also contain a single, empty space.
