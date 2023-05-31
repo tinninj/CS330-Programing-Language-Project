@@ -54,7 +54,6 @@ JavaScript has the following primitive data types:
 + Numbers: Numerical values. All numbers in JavaScript are stored as floating points. Numbers can be written both with and without the decimals.
   
  ```
-//Numbers are stored as floating points in javaScript.
 let length = 5;
 let width = 6.5;
 
@@ -64,12 +63,42 @@ console.log(area); // this results in area being equal to 32.5. JavaScript would
   ```
 + BigInt: Since numbers have their limitations, BigInts can be used to represent numbers lower than -2^53 and higher than 2^53. 
 + Strings: Strings are used to represent text. Strings usually have a sequence of characters but they can also contain a single, empty space.
+   ```
+let firstName = "Jane";
+let lastName = "Doe";
+
+console.log(firstName);
+console.log(lastName);
+
+
+console.log(firstName + lastName); //you can concatenate strings in JavaScript with a plus sign(+)
+  ```
 + Booleans: Boolean data types accepts two values: true or false.
+```
+let single = true;
+let married = false;
+
+console.log(single); // this will  print out true
+console.log(married); //this will  print out false
+```
 + Undefined: Undefined means that a value has yet to be assigned to a variable.
+ ```
+let childName;
+
+console.log(childName); //undefined will be returned
+```
 + Null: Null is generally use to point toward a nonexistent object. It is important to note that Null does not mean zero.
-+ Symbol: Symbols are always unique and immutable. They are used to identify object properties to avoid conflicts with other properties of the object. 
-   
+ ```
+ let marriedName = null;
   
+console.log(marriedName); //Null will be returned
+``` 
++ Symbol: Symbols are always unique and immutable. They are used to identify object properties to avoid conflicts with other properties of the object. 
+```
+let aSymbol = ("mysymbol");
+
+console.log(aSymbol); // aSymbol will be returned
+``` 
 Non-primitive Data types
 ===================
 In JavaScript some non-primitive data types are considered objects. Objects can have different properties and methods. They have key-value pairs. 
