@@ -122,9 +122,33 @@ In JavaScript some non-primitive data types are considered objects. Objects can 
 Commons Non-primitive Data Types
 ==================
 + Arrays: Arrays are a collection of different values stored under a single name. They are resizable. The key value pair consists of the name of the array and each value stored in the array. 
+  
+  ```
+let exArray = [3, 6, 9];
+let anArray = ["cat", 5, 10, "dog"] //This array contains both numbers and strings but no error occurs.
+
+console.log(exArray);
+console.log(anArray)
+  ``` 
+  
 + Maps: Maps are similar to arrays except their key value pairs are unique. A map can be an instance of an object.
 
-  
+  ```
+let aMap = new Map();
+
+aMap.set('u', '3'); //add items to maps
+aMap.set('x', '4');
+aMap.set('123','p');
+
+
+console.log(aMap.get('123')); //retrieve value based on key
+
+
+console.log(aMap.size) //get map size
+
+aMap.delete('x') //delete key and value pair and get size to see that the map is smaller
+console.log(aMap.size)
+  ```
 
 **Resources**
 ------------
