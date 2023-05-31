@@ -137,7 +137,18 @@ Commons Non-primitive Data Types
   let anArray = ["cat", 5, 10, "dog"] //This array contains both numbers and strings but no error occurs.
 
   console.log(exArray);
-  console.log(anArray)
+  console.log(anArray);
+  
+  console.log(exArray.length); // Get array length.
+  
+  exArray.push(12); // Add element at the end of array
+  console.log(exArray); //returns 
+  
+  exArray.pop(); // Remove element from the end of array
+  console.log(exArray); // returns 
+  
+  console.log(exArray.join(", ")); // Convert array to a string with specified separator. returns 
+  
   ``` 
   
   
