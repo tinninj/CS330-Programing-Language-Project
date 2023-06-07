@@ -247,7 +247,27 @@ Conditionals are great when you have several choices to choose from. However, th
             console.log("I guess you can wear whatever you want!");
           }
 
+
+As seen in the code above, the switch statement takes the value of the variable and determines which code to execute based on that value. Each of the different values for the variable is referred to as a case. These cases are followed by the code that executes if the entered value matches the case. Every case is concluded with a break statement. This informs the program to stop executing further code once the preceding case is matched and executed. Without the break statement, the program may continue running, leading to incorrect results. Additionally, there is an optional default case that executes when the variable's value does not match any of the cases.
   
+Another way to evaluate a condition is by using short-circuit logic. Short-circuit logic is employed to avoid unnecessary evaluations in programs. Once the program has determined the output, it ceases execution.
+  
+  
+          let l = 5;
+          let m = -7;
+
+          if( l < 0 && m < 0){ //both numbers must be less than 0
+              console.log("Both are negative numbers."); 
+          }else{
+              console.log("At least one of these numbers is positive."); // Output: At least one of these numbers is positive.
+              }
+  
+          let nextResult = l < 0 ||  m < 0;
+            console.log(nextResult); // output: true since only one condition has to be met
+  
+  
+
+ 
 **Resources**
 ------------
   + w3schools. JavaScript history. https://www.w3schools.com/js/js_history.asp 
