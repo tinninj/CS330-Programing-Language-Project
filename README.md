@@ -210,6 +210,21 @@ You can also use Boolean values in conditional statements.
       } else { // runs if the first two conditions were not met
         console.log("You can not go on the field trip. Sorry.");
         }
+  
+  
+  
+In JavaScript, there is a shorthand way to write conditionals. If you have three different choices in your program, you can use a conditional with ternary operators.
+  
+      const ageD = 16;
+      const drive = age >= 16 ? "You can drive." : "Ask you parents to take you"; //similar to an if else statement but one line
+      console.log(drive); //output: "You can drive"
+  
+The code checks if the person is at least 16 and then determines whether they can drive themselves or need their parents to take them. The code should print out “You can drive.” since the condition is met.  These conditional are always in the following order: 
++ the condition you’re testing.
++ a question mark
++ code that runs if the condition is met and a colon
++ code that runs if the condition is not met
+  
 
   
 **Resources**
