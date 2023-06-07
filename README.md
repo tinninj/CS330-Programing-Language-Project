@@ -266,8 +266,10 @@ Another way to evaluate a condition is by using short-circuit logic. Short-circu
             console.log(nextResult); // output: true since only one condition has to be met
   
   
+Issues with Conditional Statements
+==================
+While conditional statements can be useful and generally straightforward, it can sometimes be challenging to discern where one conditional statement ends and another begins. This ambiguity can result in incorrect outputs. In certain languages, issues may arise if there are indentation errors or missing parentheses. In JavaScript, curly braces are used to distinguish each conditional statement. By enclosing the conditional statements within curly braces, there is no confusion about which else belongs to which if statement, or which if statement belongs to which else. This practice ensures that the correct code is executed.
 
- 
 **Resources**
 ------------
   + w3schools. JavaScript history. https://www.w3schools.com/js/js_history.asp 
