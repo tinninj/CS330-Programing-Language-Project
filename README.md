@@ -220,11 +220,32 @@ In JavaScript, there is a shorthand way to write conditionals. If you have three
       console.log(drive); //output: "You can drive"
   
 The code checks if the person is at least 16 and then determines whether they can drive themselves or need their parents to take them. The code should print out “You can drive.” since the condition is met.  These conditional are always in the following order: 
-+ the condition you’re testing.
++ the condition you’re testing
 + a question mark
 + code that runs if the condition is met and a colon
 + code that runs if the condition is not met
   
+
+Conditionals are great when you have several choices to choose from. However, they can become quite cumbersome if you are only testing a single variable. One way to write code more easily when testing a single variable is to use a switch statement.
+  
+        const weather = "rainy";
+
+        switch(weather){//The switch function is followed by the condition in parentheses
+          case "sunny"://each case is compared to the value inputted by the user
+            console.log("Put on some sunscreen!"); //The value is only printed if the input matches the case
+            break;//each case ends with a break so that the code stops running
+          case "rainy":
+            console.log("Make sure you wear your jacket and bring a umbrella!");
+            break;
+          case "windy":
+            console.log("Make sure you wear your windbreaker!");
+            break;
+          case "snowy":
+            console.log("Wear coat and scarf!");
+            break;
+          default:
+            console.log("I guess you can wear whatever you want!");
+          }
 
   
 **Resources**
