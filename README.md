@@ -189,12 +189,28 @@ You can also use Boolean values in conditional statements.
   
   
        let z = true; ///conditionals can test booleans
-        if (z === true){ //JavaScript requires the use of a double or  triple equal sign for comparisons
+        if (z === true){ //JavaScript requires the use of a double or triple equal signs(== or ===) for comparisons
         console.log("True"); //output: True
         }else{
          console.log("False");
           }
   
+ Since the code following the if statement is set to true, it should always run. In JavaScript, values are considered 'truthy' when encountered in a Boolean context. The opposite of this is 'falsy'
+  
+  An else if statement is added to if...else statements to include additional conditions in our program. The following code is an example of an else if statement.
+  
+  
+      let age = 17;
+      let permission = false;
+
+      if (age > 18) {
+        console.log("You can go on the field trip."); // runs if the age is over 18
+        } else if (permission === true) { // runs if the first condition isn't met
+        console.log("You can go on the field trip.");
+      } else { // runs if the first two conditions were not met
+        console.log("You can not go on the field trip. Sorry.");
+        }
+
   
 **Resources**
 ------------
