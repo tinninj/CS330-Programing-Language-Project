@@ -175,14 +175,14 @@ Conditional Statements
 ================== 
 Conditional statements in programming languages exist to create more functional programs. In JavaScript, you can create conditional statements in the form of if...else and else if. Else...if statements are nested inside if...else statements. The following code is an example of an if...else conditional statement. 
   
-     ```
+     
       let x = 5;
         if (x > 4) {
         console.log("That number is greater than 5."); // will output
         } else {
         console.log("That number is not greater than 5."); // will not output
         }
-     ```
+     
   
   
   
