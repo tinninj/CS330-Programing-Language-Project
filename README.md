@@ -177,11 +177,11 @@ Conditional statements in programming languages exist to create more functional 
   
      ```
       let x = 5;
-  if (x > 4) {
-    console.log("That number is greater than 5."); // will output
-  } else {
-    console.log("That number is not greater than 5."); // will not output
-  }
+        if (x > 4) {
+        console.log("That number is greater than 5."); // will output
+        } else {
+        console.log("That number is not greater than 5."); // will not output
+        }
      ```
   
   
