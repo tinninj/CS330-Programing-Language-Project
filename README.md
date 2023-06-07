@@ -183,7 +183,17 @@ Conditional statements in programming languages exist to create more functional 
         console.log("That number is not greater than 5."); // will not output
         }
      
+The code will run if the given condition is true. If the condition is not true, the code following the else will run instead. 
   
+You can also use Boolean values in conditional statements.
+  
+  
+       let z = true; ///conditionals can test booleans
+        if (z === true){ //JavaScript requires the use of a double or  triple equal sign for comparisons
+        console.log("True"); //output: True
+        }else{
+         console.log("False");
+          }
   
   
 **Resources**
