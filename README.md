@@ -377,7 +377,52 @@ The for...of loop will iterate over each element of the iterable object, and the
        console.log(key + " : " + obj[key])//this syntax is required to print out the values assigned to each key
         }
   
-  
+                    
+                    
+Functions
+==================
+Functions are blocks of code that make code reusable. They can be called multiple times. Here is the syntax of a function:
+      
+                    
+      def function_name(parameters){
+      statement(s)
+      }
+                    
+
+To create a function, you use the function keyword followed by the name of the function and a pair of parentheses. Inside the parentheses, you specify the arguments or parameters that the function will take. Functions can take no parameters, a single parameter, or multiple parameters. The body of the function is enclosed in curly braces. As a dynamically typed language, JavaScript allows for the usage of different data types as parameters in the same function. Here are two different examples of a function. One takes a single parameter and the other takes two. 
+                    
+      function addNum(num){//single parameter is passed into the function
+      return num + num;
+      }
+
+      //call functions with the function name and by entering a parameter/argument in the parenthesis 
+      output = addNum(2);
+      console.log(output);//output: 4
+                    
+                    
+      function multipleNum(x, y){
+      return x * y;
+      }
+
+      result = multipleNum(2,4)
+      console.log(result);//output: 8
+                    
+                    
+
+                    
+The body of the function is the code that will be executed when the function is called. In JavaScript, functions are "hoisted" to the top. Functions can be placed anywhere inside the program, and they should be executable. It is important to note that "hoisting" does not apply to function expressions, only function declarations. To call a function, you use the name of the function followed by a pair of parentheses. You can pass arguments to the function inside the parentheses.
+
+Since parameters are passed to functions by value in JavaScript, any changes made to the parameter inside the function do not affect the original value of the parameter when the code is called. Here is an example to illustrate this:
+
+        function passValue(value){
+        value = 32; //value = 32 within the function
+        }
+
+        let newValue = 23;
+        passValue(newValue);
+        console.log(newValue);//output: 23
+                    
+                    
 
 **Resources**
 ------------
