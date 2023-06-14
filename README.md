@@ -445,7 +445,7 @@ This function works by calling itself with the value of z - 1 until it reaches t
  JavaScript has a spcial kind of function called arrow functions. They are a more concise way to write a function. Here is an example of an arrow function:
                     
                     
-      let sum = (a,b) => a + b; //a function that adds to values is created 
+      let sum = (a,b) => a + b; //a function that adds two values is created 
 
       let t = 6;
       let u = 7;
