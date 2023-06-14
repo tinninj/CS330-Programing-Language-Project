@@ -278,10 +278,12 @@ Loops are a common feature in most programming languages that enable programmers
   A for loop is used to iterate over a range of values. The syntax for a for loop is as follows:
       
   
-  for (initialization; condition; increment) {
-      statement
-      }
+      for (initialization; condition; increment) {
+        statement
+        }
 
+  
+  
   
 + While loops
 + Do-while loops
