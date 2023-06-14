@@ -283,7 +283,14 @@ Loops are a common feature in most programming languages that enable programmers
         }
 
   
-The initialization statement is executed before the loop starts. The condition is checked before each iteration of the loop. If the condition is true, the code inside the loop is executed and continues until the condition becomes false. The increment statement is executed after each iteration of the loop.
+The initialization statement is executed before the loop starts. The condition is checked before each iteration of the loop. If the condition is true, the code inside the loop is executed and continues until the condition becomes false. The increment statement is executed after each iteration of the loop. Here is an example of a for loop:
+  
+      let i = 0;
+
+      for(i; i < 5; i++){//condition: as long as i is less than 5, the loop will print i
+       console.log(i);//output: 0 1 2 3 4
+        }
+
   
 + While loops
   A while loop runs as long as a condition is true. The syntax for a while loop is as follows:
@@ -293,25 +300,37 @@ The initialization statement is executed before the loop starts. The condition i
       statement(s)
       }
 
- The condition is checked before each iteration of the loop. If the condition is true, the code inside the loop is executed. The loop will continue to iterate as long as the condition is true.
+ The condition is checked before each iteration of the loop. If the condition is true, the code inside the loop is executed. The loop will continue to iterate as long as the condition is true. Here is an example of a while loop:
 
   
-+ Do-while loops
++ Do...while loops
 A do-while loop is similar to a while loop, but the condition is checked at the end of the loop instead of the beginning. The code inside the loop is guaranteed to run at least once, even if the condition is false. The syntax for a do-while loop is as follows:
   
       do {
       statement(s)
       } while (condition);
   
-
-+ For-of loops
+Here is an example of a Do...while loop:
+  
+  
++ For...of loops
 A for...of loop is a type of loop in JavaScript that iterates over an iterable object, like an array or a map. The syntax for a for...of loop is as follows:
   
-      or (element of object) {
+      for (element of object) {
       statement(s)
       }
+  
+The for...of loop will iterate over each element of the iterable object, and the code inside the loop will be executed for each element. They are an efficient way to iterate over an array, rather than using a traditional for loop.
 
-+ For-in loops
++ For...in loops
+  A for...in loop is used to iterate over the properties of an object. They syntax of a for..in loop is as follows:
+  
+        for (variable property in object) {
+        statement(s)
+        }
+  
+  Here is an example of a for...in loop:
+  
   
 
 **Resources**
