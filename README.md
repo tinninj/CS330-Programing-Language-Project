@@ -273,11 +273,11 @@ While conditional statements can be useful and generally straightforward, it can
 Loops
 ==================
 Loops are a common feature in most programming languages that enable programmers to create repeatable code. They allow them to automate some tasks in their programs. JavaScript has the following kinds of loops:
-    +For loops
-    +While loops
-    +Do-while loops
-    +For-of loops
-    +For-in loops
+    + For loops
+    + While loops
+    + Do-while loops
+    + For-of loops
+    + For-in loops
   
 
 **Resources**
