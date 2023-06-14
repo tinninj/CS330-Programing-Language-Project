@@ -275,6 +275,8 @@ Loops
 Loops are a common feature in most programming languages that enable programmers to create repeatable code. They allow them to automate some tasks in their programs. JavaScript has the following kinds of loops:
     
 + For loops
+  
+  
   A for loop is used to iterate over a range of values. The syntax for a for loop is as follows:
       
   
