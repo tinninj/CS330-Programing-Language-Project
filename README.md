@@ -422,8 +422,39 @@ Since parameters are passed to functions by value in JavaScript, any changes mad
         passValue(newValue);
         console.log(newValue);//output: 23
                     
+Recursive Functions                    
+==================
+Most programming languages support recursive functions. A recursive function is a function that calls itself. An example of a recursive function is a function that implements a factorial. Here is an example of a factorial function implemented recursively:
                     
+      function factorial(z){
+      if (z === 0 || z ===1){ //this statement is the base case
+      return 1;
+       }
+      return z * factorial(z -1); // this is the recursive case
+        }
 
+      let recurNum = 7;
+      let recurResult = factorial(recurNum);
+      console.log(recurResult); // Output: 5040
+ 
+This function works by calling itself with the value of z - 1 until it reaches the base case, where z is equal to 0 or 1. At 0 or 1, the function returns 1. Otherwise, the function returns the product of z and the result of calling itself with z - 1. Every recursive function should have a base case, which is used to stop the function from calling itself. In the example above, the base case occurs when z is equal to 0 or 1. They also need a recursive case, which outlines the steps taken to perform each recursive step. The goal of the recursive case is to move towards the base case, so the function eventually stops.
+
+                    
+ Arrow Functions
+ ==================
+ JavaScript has a spcial kind of function called arrow functions. They are a more concise way to write a function. Here is an example of an arrow function:
+                    
+                    
+      let sum = (a,b) => a + b; //a function that adds to values is created 
+
+      let t = 6;
+      let u = 7;
+
+      sumResult = sum(6,7);
+      console.log(sumResult);//output: 13
+  
+As seen above, arrow functions work similarly to regular functions, but they have a more compact syntax. The arrow in the function is used to indicate the value that should be returned. Arrow functions are unique to JavaScript, but similar concepts exist in other languages.
+     
 **Resources**
 ------------
   + w3schools. JavaScript history. https://www.w3schools.com/js/js_history.asp 
