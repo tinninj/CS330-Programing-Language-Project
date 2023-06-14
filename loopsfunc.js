@@ -72,10 +72,10 @@ console.log(result);//output: 8
 
 function splitString(str){
     let strLength = str.length; //get length of the string
-    let middle = Math.floor(strLength/2);  //Math is a method in JavaScript. Math.floor allows 
+    let middle = Math.floor(strLength/2);  //Dividing the length by 2 spilts the string in half. The Math.floor function rounds down to the nearest interger. 
     
-    let firstHalf = str.slice(0, middle);
-    let secondHalf = str.slice(middle);
+    let firstHalf = str.slice(0, middle); //get the part of the string before the middle
+    let secondHalf = str.slice(middle); // get the part of the string after the middle
 
     return [firstHalf, secondHalf];
     
