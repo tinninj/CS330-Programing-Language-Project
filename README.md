@@ -293,9 +293,24 @@ The initialization statement is executed before the loop starts. The condition i
       statement(s)
       }
 
+ The condition is checked before each iteration of the loop. If the condition is true, the code inside the loop is executed. The loop will continue to iterate as long as the condition is true.
+
   
 + Do-while loops
+A do-while loop is similar to a while loop, but the condition is checked at the end of the loop instead of the beginning. The code inside the loop is guaranteed to run at least once, even if the condition is false. The syntax for a do-while loop is as follows:
+  
+      do {
+      statement(s)
+      } while (condition);
+  
+
 + For-of loops
+A for...of loop is a type of loop in JavaScript that iterates over an iterable object, like an array or a map. The syntax for a for...of loop is as follows:
+  
+      or (element of object) {
+      statement(s)
+      }
+
 + For-in loops
   
 
