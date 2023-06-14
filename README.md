@@ -295,6 +295,8 @@ The initialization statement is executed before the loop starts. The condition i
 
   
 + While loops
+                   
+                   
   A while loop runs as long as a condition is true. The syntax for a while loop is as follows:
 
   
@@ -303,9 +305,18 @@ The initialization statement is executed before the loop starts. The condition i
       }
 
  The condition is checked before each iteration of the loop. If the condition is true, the code inside the loop is executed. The loop will continue to iterate as long as the condition is true. Here is an example of a while loop:
+                   
+       let j = 5;
+
+        while(j < 10){//condition: as long as j is less than 10, the loop will print j
+        console.log(j);//output: 5 6 7 8 9
+         j++;
+          }            
 
   
 + Do...while loops
+  
+  
 A do-while loop is similar to a while loop, but the condition is checked at the end of the loop instead of the beginning. The code inside the loop is guaranteed to run at least once, even if the condition is false. The syntax for a do-while loop is as follows:
   
       do {
@@ -315,14 +326,37 @@ A do-while loop is similar to a while loop, but the condition is checked at the 
 Here is an example of a Do...while loop:
   
   
+      let k = 10;
+
+      do{
+      console.log(k);//output: 10 11 12 13 14
+      k++;
+      }
+      while(k < 15);
+                    
+                    
+  
 + For...of loops
+                    
+                    
 A for...of loop is a type of loop in JavaScript that iterates over an iterable object, like an array or a map. The syntax for a for...of loop is as follows:
   
       for (element of object) {
       statement(s)
       }
   
-The for...of loop will iterate over each element of the iterable object, and the code inside the loop will be executed for each element. They are an efficient way to iterate over an array, rather than using a traditional for loop.
+The for...of loop will iterate over each element of the iterable object, and the code inside the loop will be executed for each element. They are an efficient way to iterate over an array, rather than using a traditional for loop. Here is an example of a for...of loop:
+                    
+          const myMap = new Map(); // created a Map which is an object
+          myMap.set("student name", "Joe");//added elements to the map
+          myMap.set("age", 21);
+          myMap.set("course", "Intro to CS");
+
+
+          for (let [key, value] of myMap){//loop iterates through the map and prints the key and the value
+          console.log(key + " : " + value)
+          }
+
 
 + For...in loops
   A for...in loop is used to iterate over the properties of an object. They syntax of a for..in loop is as follows:
