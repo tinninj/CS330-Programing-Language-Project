@@ -366,6 +366,16 @@ The for...of loop will iterate over each element of the iterable object, and the
         }
   
   Here is an example of a for...in loop:
+                    
+       const obj = {//creates a JavaScript object
+       name: "Jack",
+       age: 20,
+       course: "Computer Architecture"
+        }
+
+       for (let key in obj){//loop iterated through elements in object and prints them out
+       console.log(key + " : " + obj[key])//this syntax is required to print out the values assigned to each key
+        }
   
   
 
