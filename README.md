@@ -283,9 +283,17 @@ Loops are a common feature in most programming languages that enable programmers
         }
 
   
-  
+The initialization statement is executed before the loop starts. The condition is checked before each iteration of the loop. If the condition is true, the code inside the loop is executed and continues until the condition becomes false. The increment statement is executed after each iteration of the loop.
   
 + While loops
+  A while loop runs as long as a condition is true. The syntax for a while loop is as follows:
+
+  
+      while (condition) {
+      statement(s)
+      }
+
+  
 + Do-while loops
 + For-of loops
 + For-in loops
