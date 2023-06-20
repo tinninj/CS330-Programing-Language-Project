@@ -459,7 +459,7 @@ As seen above, arrow functions work similarly to regular functions, but they hav
 Classes and Objects
  ==================
  
-JavaScript is an object-oriented language, which means that it allows you to create objects that have properties and methods. Objects group data together and add meaning in the form of properties. You could create a Dog class and add properties like name, age, and breed. Methods created for the Dog class define the actions an object from the Dog class can perform or have performed on them. Here is an example of an object and a class:
+JavaScript is an object-oriented language, which means that it allows you to create objects that have properties and methods. Objects group data together and add meaning in the form of properties. You could create a Dog class and add properties like name, age, and breed. Methods created for the Dog class define the actions an object from the Dog class can perform or have performed on them. Here is an example of a class:
 
         export default class Dog{//export default enables us to export the class to a new file
       constructor(name,age,breed){//the constructor creates and initializes an object
@@ -506,7 +506,71 @@ JavaScript is an object-oriented language, which means that it allows you to cre
         this._breed = newBreed;
       }
       }
-     
+
+Every class in JavaScript must contain a constructor, which is used to create and initialize the class. The constructor contains the attributes that each member of the class should have. The code above for the class also includes functions called "getters" and "setters". These functions are standard in most programming languages. JavaScript identifies these special functions with the "get" and "set" keywords. Getters are used to retrieve the value of an attribute, and setters are used to set the value of the attribute. Another method to note is the toString method. This method represents the data stored in the attributes as a string data type. While not all programming languages will use the same name, it is common to have a method that performs the actions of the toString method.
+
+Here is an example of an object of the Dog class:
+
+      import Dog from './Dog.js'; //Must use this format to import from another file. Both files should be in the same folder.
+
+      const dog1 = new Dog("Tom", 4, "Aussie");
+      console.log(dog1.toString());
+      console.log(dog1.bark())
+      console.log(dog1.wagTail())
+
+      dog1.name = "Carl";
+      dog1.age = 2;
+      dog1.breed = "Cattle Dog";
+
+      console.log(dog1.toString());
+
+      console.log(dog1.bark())
+
+It's important to note the first line of the code. In order to use the Dog class, it had to be imported into the same files as the dog1 object. Use the extends keyword if you want to import a class into a different file.
+
+
+Inheritance
+=================
+Inheritance in JavaScript allows you to create new objects that inherit the properties and methods from existing objects. This is useful for creating new objects that are similar to existing objects but with some additional properties or methods. In JavaScript, you use the "extends" keyword for inheritance. For example, if there is a Dog class, you can create a Golden class that inherits from the Dog class using the "extends" keyword. Here is an example of that:
+
+        import Dog from './Dog.js'; //import Dog class
+
+        export default class Golden extends Dog{ //export Golden class
+        constructor(name,age,breed,favoriteToy){//added an additional attribute called favoriteToy
+        super(name,age,breed); //imports the three attributes from the Dog class
+        this.favoriteToy = favoriteToy;
+        }
+
+        toString() {
+        return `${super.toString()}They love to play with ${this.favoriteToy}.`; //imports the describe function from the Dog class
+        }
+
+        rollOver(){
+        return (`${this.name} rollovered when I asked him to.`)
+        }
+
+        get favoriteToy(){
+        return this._favoriteToy;
+        }
+
+        set favoriteToy(newFavoriteToy){
+        this._favoriteToy = newFavoriteToy
+        }
+        }
+
+
+The above code is for the Golden class. The keyword extends lets us know that the Golden class is inheriting from the Dog class. Extends is a keyword that can be used to not only import a class to a driver program but also to another class for inheritance. The Golden class is able to use the attributes and methods of the Dog class by including those methods and attributes with a preceeding super. The super method lets the program know that those methose and attributes are inherited. The Golden class also has it's own uniqe attributes and methods that can't be found in the Dog class. Even though there can be multiple classes the inherit from a class, they can all have their own unique attributes and methods. 
+
+
+Key Points for Objects and Classes
+==================
+
+
+Naming Conventions for Classes, Objects and Methods
+==================
+Like many languages, JavaScript has common naming conventions for the different parts of the code. In JavaScript, objects are usually named with PascalCase, where the first letter in each word is capitalized. For example, a dog object would be named "Dog." Instance variables, on the other hand, are typically named with camelCase, where the first word is in all lowercase letters and the following words start with an uppercase letter. So an instance variable would be named "greenCat" instead of "greencat". Functions are also normally written in camelCase. For instance, a function could be named "eatFood" instead of "eatfood". It is important to remember these naming conventions as they make the code more readable and help avoid confusion, especially when working in a team.
+
+
 **Resources**
 ------------
   + w3schools. JavaScript history. https://www.w3schools.com/js/js_history.asp 
