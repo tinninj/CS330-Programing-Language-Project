@@ -454,6 +454,58 @@ This function works by calling itself with the value of z - 1 until it reaches t
       console.log(sumResult);//output: 13
   
 As seen above, arrow functions work similarly to regular functions, but they have a more compact syntax. The arrow in the function is used to indicate the value that should be returned. Arrow functions are unique to JavaScript, but similar concepts exist in other languages.
+
+
+Classes and Objects
+ ==================
+ 
+JavaScript is an object-oriented language, which means that it allows you to create objects that have properties and methods. Objects group data together and add meaning in the form of properties. You could create a Dog class and add properties like name, age, and breed. Methods created for the Dog class define the actions an object from the Dog class can perform or have performed on them. Here is an example of an object and a class:
+
+        export default class Dog{//export default enables us to export the class to a new file
+      constructor(name,age,breed){//the constructor creates and initializes an object
+        this.name = name;
+        this.age = age;
+        this.breed = breed;
+      }
+
+      toString(){ //toStrong is a method used in JavaScript to describe an object and its attributes in string form
+        return (`${this.name} is  ${this.age} and they are a ${this.breed} . `)
+      }
+    
+      bark(){
+        return(`${this.name} says Woof Woof!`)
+      }
+
+      wagTail(){
+        return("Their tail goes swoosh swoosh!")
+      }
+
+        //get is used in "getter" functions to get the value of the object's attributes
+      get name(){
+        return this._name;
+      }
+
+      get age(){
+        return this._age;
+      }
+
+      get breed(){
+        return this._breed;
+      }
+
+      //set is used in "setter" functions to change the value of a object's attribute.
+      set name(newName) {
+        this._name = newName;
+      }
+
+      set age(newAge) {
+        this._age = newAge;
+      }
+
+      set breed(newBreed) {
+        this._breed = newBreed;
+      }
+      }
      
 **Resources**
 ------------
@@ -463,5 +515,6 @@ As seen above, arrow functions work similarly to regular functions, but they hav
   + Mozilla. JavaScript Reference. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
   + Mozilla. Javascript Guide. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
   + Haverbeke, M. (2019). Eloquent javascript: A modern introduction to programming. No Starch Press. 
-  + FLANAGAN, D. (2020). JAVASCRIPT the definitive guide. O’REILLY MEDIA, INC, USA. 
+  + FLANAGAN, D. (2020). JAVASCRIPT the definitive guide. O’REILLY MEDIA, INC, USA.
+  + Google, Google JavaScript Style Guide, https://google.github.io/styleguide/jsguide.html#naming.
   
