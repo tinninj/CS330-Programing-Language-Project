@@ -558,10 +558,9 @@ Inheritance in JavaScript allows you to create new objects that inherit the prop
         }
         }
 
-The above code is for the Golden class. The keyword "extends" lets us know that the Golden class is inheriting from the Dog class. "Extends" is a keyword that can be used not only to import a class into a driver program but also to establish inheritance between classes. The Golden class is able to utilize the attributes and methods of the Dog class by including them with a preceding "super" keyword. The "super" keyword indicates that those methods and attributes are inherited. The Golden class also has its own unique attributes and methods that are not present in the Dog class. While multiple classes can inherit from a single class, they can all have their own distinct attributes and methods.
+The above code is for the Golden class. The keyword "extends" lets us know that the Golden class is inheriting from the Dog class. "Extends" is a keyword that can be used not only to import a class into a driver program but also to establish inheritance between classes. The Golden class is able to use the attributes and methods of the Dog class by including them with a preceding "super" keyword. The "super" keyword indicates that those methods and attributes should be inherited. The Golden class also has its own unique attributes and methods that are not present in the Dog class. While multiple classes can inherit from a single class, they can all have their own distinct attributes and methods.
 
-Key Points for Objects and Classes
-==================
+Here is an example of an object created from the Golden class:
 
 
 Naming Conventions for Classes, Objects and Methods
