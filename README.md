@@ -531,7 +531,7 @@ It's important to note the first line of the code. In order to use the Dog class
 
 Inheritance
 =================
-Inheritance in JavaScript allows you to create new objects that inherit the properties and methods from existing objects. This is useful for creating new objects that are similar to existing objects but with some additional properties or methods. In JavaScript, you use the "extends" keyword for inheritance. For example, if there is a Dog class, you can create a Golden class that inherits from the Dog class using the "extends" keyword. Here is an example of that:
+Inheritance in JavaScript allows you to create new objects that inherit the properties and methods from existing objects. This is useful for creating new objects that are similar to existing objects but with some additional properties or methods. In JavaScript, you use the "extends" keyword for inheritance. For example, if there is a Dog class, you can create a Golden class that inherits from the Dog class using the "extends" keyword. The Dog class would be considered the parent class or the super class while the Golden class would be the child class or sub class. Here is an example of that:
 
         import Dog from './Dog.js'; //import Dog class
 
@@ -563,9 +563,29 @@ The above code is for the Golden class. The keyword "extends" lets us know that 
 Here is an example of an object created from the Golden class:
 
 
+
 Naming Conventions for Classes, Objects and Methods
 ==================
 Like many languages, JavaScript has common naming conventions for the different parts of the code. In JavaScript, objects are usually named with PascalCase, where the first letter in each word is capitalized. For example, a dog object would be named "Dog." Instance variables, on the other hand, are typically named with camelCase, where the first word is in all lowercase letters and the following words start with an uppercase letter. So an instance variable would be named "greenCat" instead of "greencat". Functions are also normally written in camelCase. For instance, a function could be named "eatFood" instead of "eatfood". It is important to remember these naming conventions as they make the code more readable and help avoid confusion, especially when working in a team.
+
+
+        import Golden from './Golden.js';
+
+        const golden1 = new Golden("Buddy", 5, "Golden Retriever", "Tennis ball");
+
+        console.log(golden1.toString());
+
+        console.log(golden1.rollOver());
+
+        golden1.favoriteToy = "Rope";
+        console.log(golden1.toString());
+
+        golden1.name = "John";
+        golden1.age = 4;
+        console.log(golden1.toString());
+
+
+The code about is an instance of the Golden class. It can call methods that are unique to the Golden class as well as methods from the Dog class. 
 
 
 **Resources**
